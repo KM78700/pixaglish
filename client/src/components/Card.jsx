@@ -24,7 +24,7 @@ const Card = ({
       />
 
       {info && (
-        <div className="group-hover:flex flex-col max-h-[94.5%]  absolute bottom-0 left-0 right-0 bg-[#10131f] m-2 p-4 rounded-md">
+        <div className="group-hover:flex flex-col max-h-[94.5%]   bottom-0 left-0 right-0 bg-[#10131f] m-2 p-4 rounded-md">
           <p className="text-white text-[18px] overflow-y-auto prompt pb-[10px]">
             {prompt}
           </p>
