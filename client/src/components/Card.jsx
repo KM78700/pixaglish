@@ -17,14 +17,14 @@ const Card = ({
   return (
     <div className="rounded-xl group relative shadow-card hover:shadow-cardhover card ">
       <img
-        className="w-[100%] h-[400px] object-cover rounded-xl cursor-pointer"
+        className="w-[100%] h-[400px] object-cover rounded-md cursor-pointer"
         src={linkImg}
         alt={prompt}
         onClick={() => setInfo(!info)}
       />
 
       {info && (
-        <div className="group-hover:flex flex-col max-h-[94.5%]   bottom-0 left-0 right-0 bg-[#10131f] mt-1  p-4 rounded-md">
+        <div className="group-hover:flex flex-col max-h-[94.5%] bottom-0 left-0 right-0 bg-[#10131f] mt-1  p-4 rounded-md">
           <p className="text-white text-[18px] overflow-y-auto prompt pb-[10px]">
             {prompt}
           </p>
@@ -35,7 +35,7 @@ const Card = ({
           <div className="mt-5 flex justify-between items-center gap-2">
             <div className="flex items-center gap-2">
               <div className="w-auto h-auto rounded-[5px] p-[8px] object-cover bg-[#10e1e5] flex justify-center items-center text-black text-[12px] font-bold">
-                N° : {number}
+                {number}
                 {/* {name[0]} */}
               </div>
             </div>
