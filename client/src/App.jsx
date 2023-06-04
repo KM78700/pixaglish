@@ -12,7 +12,7 @@ const App = () => (
         <img
           src={logo}
           alt="logo"
-          className="h-[45px] object-contain"
+          className="h-[40px] object-contain"
         />
       </Link>
 
@@ -21,7 +21,7 @@ const App = () => (
           to="/"
           className="font-inter font-medium bg-[#192435] text-white px-4 py-2 rounded-[5px] text-[14px]"
         >
-          JE RESERVE MA PLACE
+          Sign in
         </Link>
       </div>
     </header>
