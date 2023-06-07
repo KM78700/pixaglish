@@ -17,7 +17,7 @@ const Card = ({
   return (
     <div className="rounded-xl group relative shadow-card hover:shadow-cardhover card ">
       <img
-        className="w-[100%] h-[500px] object-cover rounded-md cursor-pointer"
+        className="w-[100%] h-[400px] object-cover rounded-md cursor-pointer"
         src={linkImg}
         alt={prompt}
         onClick={() => setInfo(!info)}
