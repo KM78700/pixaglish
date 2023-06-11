@@ -29,10 +29,10 @@ const Card = ({
             info={info}
           />
         </div>
-        <div className="w-auto h-auto rounded-b-[5px] p-[8px] object-cover bg-[#10131f] flex justify-center items-center text-white text-[16px] ">
-                Picture n° {number}
-                {/* {name[0]} */}
-              </div>
+        <div className="w-auto h-auto rounded-[5px] p-[8px] object-cover bg-[#10131f] flex justify-center items-center text-white text-[16px] absolute top-[20px] left-[20px] ">
+          {number}
+          {/* {name[0]} */}
+        </div>
       </div>
 
       {info && (
