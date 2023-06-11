@@ -18,7 +18,7 @@ const Card = ({
     <div className="rounded-xl group relative  ">
       <div>
         <img
-          className="w-[100%] h-[400px] object-cover rounded-md cursor-pointer"
+          className="w-[100%] h-[400px] object-cover rounded-t-md cursor-pointer"
           src={linkImg}
           alt={prompt}
           onClick={() => setInfo(!info)}
@@ -29,6 +29,10 @@ const Card = ({
             info={info}
           />
         </div>
+        <div className="w-auto h-auto rounded-b-[5px] p-[8px] object-cover bg-[#10131f] flex justify-center items-center text-white text-[16px] ">
+                Picture n° {number}
+                {/* {name[0]} */}
+              </div>
       </div>
 
       {info && (

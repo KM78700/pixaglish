@@ -134,8 +134,7 @@ const App = () => (
             </h6>
             <p>
               Here you can use rows and columns to organize your
-              footer content. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit.
+              footer content.
             </p>
           </div>
           <div class="">
@@ -158,7 +157,7 @@ const App = () => (
                 React
               </a>
             </p>
-            <p class="mb-4">
+            {/* <p class="mb-4">
               <a
                 href="#!"
                 class="text-neutral-600 dark:text-neutral-200"
@@ -173,7 +172,7 @@ const App = () => (
               >
                 Laravel
               </a>
-            </p>
+            </p> */}
           </div>
           <div class="">
             <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
@@ -195,7 +194,7 @@ const App = () => (
                 Settings
               </a>
             </p>
-            <p class="mb-4">
+            {/* <p class="mb-4">
               <a
                 href="#!"
                 class="text-neutral-600 dark:text-neutral-200"
@@ -210,7 +209,7 @@ const App = () => (
               >
                 Help
               </a>
-            </p>
+            </p> */}
           </div>
           <div>
             <h6 class="mb-4 flex justify-center font-semibold uppercase md:justify-start">
@@ -240,7 +239,7 @@ const App = () => (
               </svg>
               info@example.com
             </p>
-            <p class="mb-4 flex items-center justify-center md:justify-start">
+            {/* <p class="mb-4 flex items-center justify-center md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -269,7 +268,7 @@ const App = () => (
                 />
               </svg>
               + 01 234 567 89
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
