@@ -36,24 +36,25 @@ function AudioPlayer(props) {
         <button
           type="button"
           onClick={handleStop}
-          className="outline-none bg-transparent border-none invert"
+  
         >
           <img
             src={stop}
             alt="download"
-            className="w-10 h-10 object-contain"
+            className="w-14 h-14 object-contain"
           />
         </button>
       ) : (
         <button
           type="button"
           onClick={handlePlay}
-          className="outline-none bg-transparent border-none invert"
+       
+        
         >
           <img
             src={play}
             alt="download"
-            className="w-10 h-10 object-contain"
+            className="w-14 h-14 object-contain"
           />
         </button>
       )}
